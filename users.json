@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "ChaoticDev",
+      "email": "chaoticdev@example.com",
+      "profile": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "bio": "Web developer with a passion for frontend design and game development.",
+        "location": "San Francisco, CA",
+        "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Node.js"],
+        "projects": [
+          {
+            "name": "Classico",
+            "description": "Movie review web app",
+            "completed": true
+          },
+          {
+            "name": "Leaf Notes",
+            "description": "Task management app with gamified elements",
+            "completed": true
+          }
+        ]
+      },
+      "preferences": {
+        "theme": "dark",
+        "notifications": {
+          "email": true,
+          "sms": false,
+          "push": true
+        }
+      }
+    },
+    {
+      "id": 2,
+      "username": "GameMaster",
+      "email": "gamemaster@example.com",
+      "profile": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "bio": "Indie game developer, focused on creating unique gaming experiences.",
+        "location": "Austin, TX",
+        "skills": ["Unity", "C#", "Aseprite", "FLStudio"],
+        "projects": [
+          {
+            "name": "Cube's Journey",
+            "description": "3D puzzle game",
+            "completed": false
+          },
+          {
+            "name": "Puzzlr",
+            "description": "Casual puzzle game",
+            "completed": true
+          }
+        ]
+      },
+      "preferences": {
+        "theme": "light",
+        "notifications": {
+          "email": true,
+          "sms": true,
+          "push": false
+        }
+      }
+    }
+  ]
+}
